@@ -45,7 +45,7 @@ def myCalendar(*args):
     elif len(args) == 2:
         print(calendar.month(int(args[1]), int(args[0])))
     else:
-        print("don't forget the comma, i.e. --> '6, 2020'")
+        print("don't forget the comma, i.e. --> 6, 2020")
 
 myCalendar(*dateData)
 
